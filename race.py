@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from maps import *
 
+
 #行動
 def f(x,y,p_f):
     action = np.random.choice(8,p=p_f[y,x])
